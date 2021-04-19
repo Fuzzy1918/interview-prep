@@ -65,3 +65,9 @@ heroes['Gender'] = heroes['Gender'].str.replace('Fmale', 'Female')
 
 # Check if there is no occurences of 'Fmale'
 print(heroes['Gender'].value_counts())
+
+# Define a pattern to search for valid temperatures in text
+pattern = re.compile(r'[+-]?\d+\.?\d* [CF]')
+
+# Print the temperatures out
+print(re.findall(pattern, text))
