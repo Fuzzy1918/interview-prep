@@ -61,3 +61,5 @@ for (key, value) in word_counter.items():
 # Filter prime numbers into the new list
 primes = [num for num in cands if is_prime(num)]
 print("primes = " + str(primes))
+
+ 
