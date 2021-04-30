@@ -75,3 +75,5 @@ print("primes = " + str(primes))
 coprimes = [(i, j) for i in list1 
                    for j in list2 if gcd(i, j) == 1]
 print(coprimes)
+
+#What is a zip object?
