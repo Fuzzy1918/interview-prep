@@ -122,3 +122,7 @@ result = zip(col_names, [words, lengths])
 # Convert the result to a dictionary and build a DataFrame
 data_frame = pd.DataFrame(dict(result))
 print(data_frame)
+
+#What is a generator and how to create one?
+
+
