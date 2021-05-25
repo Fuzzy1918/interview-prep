@@ -156,3 +156,4 @@ def simulate_dice_throws():
 dice_simulator = simulate_dice_throws()
 for i in range(1, 1001):
     print(str(i) + ': ' + str(next(dice_simulator)))
+
