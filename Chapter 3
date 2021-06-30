@@ -46,3 +46,5 @@ res = sort_all_types(
 	1, 2.0, 'dog', 5.1, num1 = 0.0, num2 = 5, str1 = 'cat'
 )
 print(res)
+
+#What is a lambda expression?
