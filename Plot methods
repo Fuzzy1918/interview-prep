@@ -1,0 +1,13 @@
+# Create a boxenplot with the Paired palette and the Region column as the hue
+sns.boxenplot(data=df,
+         x='Award_Amount',
+         y='Model Selected',
+         palette='Paired',
+         hue='Region')
+
+plt.show()
+plt.clf()
+
+
+
+
