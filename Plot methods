@@ -8,6 +8,13 @@ sns.boxenplot(data=df,
 plt.show()
 plt.clf()
 
+# Create a pointplot and include the capsize in order to show caps on the error bars
+sns.pointplot(data=df,
+         y='Award_Amount',
+         x='Model Selected',
+         capsize=.1)
 
+plt.show()
+plt.clf()
 
 
